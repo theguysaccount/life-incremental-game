@@ -1,0 +1,122 @@
+[
+  {
+    "area": "Body and energy",
+    "intro": "Plain, countable things to do. Nothing here is health advice.",
+    "ideas": [
+      { "id": "body-walk-5x20", "text": "Walk for 20 minutes on five days this week" },
+      { "id": "body-stretch-7", "text": "Stretch for five minutes every morning for a week" },
+      { "id": "body-bed-by-11", "text": "Be in bed by 11 pm on five nights this week" },
+      { "id": "body-cook-4", "text": "Cook dinner at home four nights this week" },
+      { "id": "body-water-meals", "text": "Drink a glass of water with every meal for a week" },
+      { "id": "body-first-5k", "text": "Walk or jog a 5 km route from start to finish" },
+      { "id": "body-stairs-week", "text": "Take the stairs every time for one week" },
+      { "id": "body-three-workouts", "text": "Do three workouts this week, any kind" },
+      { "id": "body-phone-out", "text": "Charge my phone outside the bedroom for seven nights" }
+    ]
+  },
+  {
+    "area": "Home and space",
+    "intro": "Jobs with a clear end, so you know when to tick them off.",
+    "ideas": [
+      { "id": "home-one-drawer", "text": "Empty and sort the junk drawer" },
+      { "id": "home-donate-bag", "text": "Fill one bag with things to give away and drop it off" },
+      { "id": "home-fix-one-thing", "text": "Fix the one broken thing I keep walking past" },
+      { "id": "home-deep-clean", "text": "Deep-clean one room from top to bottom" },
+      { "id": "home-paper-pile", "text": "Sort the paper pile: file, scan or recycle every sheet" },
+      { "id": "home-wardrobe", "text": "Take out every piece of clothing I haven't worn in a year" },
+      { "id": "home-photo-backup", "text": "Back up my photos to a second place" },
+      { "id": "home-plants", "text": "Repot my plants, or get my first one" },
+      { "id": "home-inbox-20", "text": "Get my email inbox under 20 messages" }
+    ]
+  },
+  {
+    "area": "Money habits",
+    "intro": "Habits and tidy-ups only. Nothing here is financial advice.",
+    "ideas": [
+      { "id": "money-track-week", "text": "Write down everything I spend for seven days" },
+      { "id": "money-cancel-sub", "text": "Cancel one subscription I don't use" },
+      { "id": "money-no-spend", "text": "Get through one weekend without spending anything" },
+      { "id": "money-list-bills", "text": "List every recurring bill and its due date on one page" },
+      { "id": "money-sell-three", "text": "Sell three things I no longer need" },
+      { "id": "money-pack-lunch", "text": "Pack lunch every workday for a week" },
+      { "id": "money-compare-bill", "text": "Compare prices for one bill and decide whether to switch" },
+      { "id": "money-daily-jar", "text": "Put the same small amount aside every day for two weeks" },
+      { "id": "money-papers-folder", "text": "Gather this year's receipts and documents into one folder" }
+    ]
+  },
+  {
+    "area": "Learning and skills",
+    "intro": "Small enough to finish, big enough to notice.",
+    "ideas": [
+      { "id": "learn-finish-book", "text": "Finish one book I've already started" },
+      { "id": "learn-course-module", "text": "Complete one full module of a course" },
+      { "id": "learn-50-words", "text": "Learn 50 words in a new language" },
+      { "id": "learn-one-song", "text": "Learn to play one song all the way through" },
+      { "id": "learn-three-recipes", "text": "Cook three recipes I've never tried" },
+      { "id": "learn-typing", "text": "Practise typing for 10 minutes a day for two weeks" },
+      { "id": "learn-explain", "text": "Learn one topic well enough to explain it to a friend, then do it" },
+      { "id": "learn-documentary", "text": "Watch one documentary and write down five things I learned" },
+      { "id": "learn-shortcuts", "text": "Learn ten keyboard shortcuts for the tool I use most" }
+    ]
+  },
+  {
+    "area": "Work and career",
+    "intro": "The things that move work forward and never feel urgent.",
+    "ideas": [
+      { "id": "work-update-cv", "text": "Update my CV with everything from the last year" },
+      { "id": "work-apply-three", "text": "Send three job applications" },
+      { "id": "work-oldest-task", "text": "Finish the task I've been putting off the longest" },
+      { "id": "work-publish-one", "text": "Publish one piece of work I'm proud of" },
+      { "id": "work-ask-feedback", "text": "Ask two people for honest feedback on my work" },
+      { "id": "work-coffee-chat", "text": "Have a conversation with someone whose job I'd like" },
+      { "id": "work-clear-desk", "text": "Clear my desk and my computer desktop" },
+      { "id": "work-focus-blocks", "text": "Do five two-hour focus blocks with my phone in another room" },
+      { "id": "work-ship-v1", "text": "Ship version one of my side project" }
+    ]
+  },
+  {
+    "area": "People",
+    "intro": "The ones that are easy to postpone for a year.",
+    "ideas": [
+      { "id": "people-call-friend", "text": "Call one old friend I haven't spoken to this year" },
+      { "id": "people-thank-three", "text": "Write three thank-you notes and send them" },
+      { "id": "people-host-meal", "text": "Host a meal for friends or family" },
+      { "id": "people-evening", "text": "Plan and keep one unhurried evening with someone I love" },
+      { "id": "people-conversation", "text": "Have the conversation I've been avoiding" },
+      { "id": "people-neighbour", "text": "Introduce myself to a neighbour" },
+      { "id": "people-family-story", "text": "Ask an older relative for a story and write it down" },
+      { "id": "people-volunteer", "text": "Volunteer for one shift somewhere local" },
+      { "id": "people-first-meetup", "text": "Go to one club, class or meetup for the first time" }
+    ]
+  },
+  {
+    "area": "Making things",
+    "intro": "Finished beats perfect. Each of these has an obvious last step.",
+    "ideas": [
+      { "id": "make-first-draft", "text": "Finish the first draft, however rough" },
+      { "id": "make-sketch-daily", "text": "Draw one sketch a day for two weeks" },
+      { "id": "make-record-song", "text": "Record one song or voice memo and play it for someone" },
+      { "id": "make-photo-walk", "text": "Take a photo walk and pick my best ten shots" },
+      { "id": "make-build-one", "text": "Build one small thing with my hands" },
+      { "id": "make-thousand-words", "text": "Write 1,000 words on the thing I keep meaning to write" },
+      { "id": "make-plant-month", "text": "Plant something and keep it alive for a month" },
+      { "id": "make-one-minute-video", "text": "Make a one-minute video from start to finish" },
+      { "id": "make-letter", "text": "Write a letter by hand and post it" }
+    ]
+  },
+  {
+    "area": "Mind and rest",
+    "intro": "Rest counts as a goal when you plan it and do it.",
+    "ideas": [
+      { "id": "mind-journal-week", "text": "Write three lines in a journal every night for a week" },
+      { "id": "mind-screen-free-morning", "text": "Spend one Sunday morning with every screen off" },
+      { "id": "mind-ten-quiet", "text": "Sit quietly for ten minutes a day for a week" },
+      { "id": "mind-outside-noon", "text": "Get outside before noon every day for a week" },
+      { "id": "mind-unfollow-30", "text": "Unfollow or mute 30 accounts that don't make my day better" },
+      { "id": "mind-day-trip", "text": "Plan one day trip and put it on the calendar" },
+      { "id": "mind-read-nightly", "text": "Read for 15 minutes before bed for a week" },
+      { "id": "mind-say-no", "text": "Say no to one thing I'd normally agree to out of habit" },
+      { "id": "mind-day-off", "text": "Take one full day off: no work, no errands" }
+    ]
+  }
+]

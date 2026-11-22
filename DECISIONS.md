@@ -1,0 +1,14 @@
+# Decisions
+
+1. **A mountain, not "the slums".** The brief flags that "start in the slums" can read as mocking poverty. The ladder is ten stations on a mountain (Trailhead to Summit), and the copy calls the Trailhead "a starting line, not a ranking of people". A test fails if "slum" ever appears in a tier name.
+2. **Finishing a goal is the only way up.** No points, streaks, coins or time-based progress. The game asks once, "Did you finish it?", and takes the answer on trust. Undo exists for mistakes, until the next prestige.
+3. **Three slots.** The brief's v1 is "set three goals". Three keeps focus and makes a slot freeing up a small reward in itself.
+4. **Prestige only at the Summit, and harder every time.** Peak I: one finished goal per tier (9 to the top). Peak II: two (18). Peak III and later: three (27). Each peak is taller and gets a new palette; a badge records the peak, goals and days. Goals in progress and the log carry over, so prestige never deletes work. It's optional: goals finished at the top still count toward lifetime totals.
+5. **Solo app, not a cohort layer (open question for Jack, defaulted).** A Startupathon or Persist cohort layer needs accounts and a server. v1 is a free solo game; a cohort version is a key for later.
+6. **Saves stay on the device.** One localStorage entry, validated on load (a damaged save is set aside, never silently overwritten), with export/import as the backup and the way to move devices. No server means nothing to breach and nothing to run.
+7. **Share loop without leaking goals.** Cards are drawn in the browser from SVG; goal text appears only if the player ticks the box. Challenge links carry three numbers (peak, tier, day) and are stripped from the address bar after reading.
+8. **Static site, Node build, no dependencies.** The build, tests, end-to-end driver and health check use only Node's standard library and the Chrome already on GitHub's runners, so nothing can rot or be hijacked through a package.
+9. **Strict Content-Security-Policy.** `default-src 'none'`, own files only. Turning on analytics adds exactly GoatCounter's script and endpoint.
+10. **Goal ideas are the search surface.** 72 finishable ideas in eight areas, each with a stable id so "Use this" links keep working. Money and body ideas are habits, not advice.
+11. **Weekly self-test, with a staleness check.** The self-test rebuilds with the deploy's settings and compares the build version with the live `build.json`. If the live site is behind main (a deploy that never went out), it dispatches a deploy and raises an `ops-alert` issue. The version ignores the build date, so this never fires by accident.
+12. **One setting for the address.** `SITE_URL` (repository variable) drives canonicals, sitemap, share cards and IndexNow. A domain move is that variable plus the Pages custom-domain setting. Because saves live per web address, `MOVE_NOTICE_URL` can warn players to export first.

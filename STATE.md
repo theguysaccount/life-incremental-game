@@ -1,0 +1,6 @@
+# State (2026-11-22)
+
+- **Existing material:** two sentences from a May 2022 note, quoted in the brief: start at the bottom, move up a tier for each completed goal, optionally prestige and start again. No code, design, site or users existed. Nothing was reused or copied.
+- **What works now:** a live static game: three goal slots, a ten-station mountain ladder, prestige to harder peaks with badges, a climb log with undo, share cards and challenge links, local saves with export and import, a 72-idea goal page, and two workflows (deploy on push; weekly self-test with stale-deploy redeploy and keep-alive).
+- **What's limited:** saves live in one browser on one device (export/import moves them). There are no reminders, because there is no server and no account. No analytics until a GoatCounter key is set, so there are no activation numbers yet.
+- **Worth reusing:** `scripts/lib/chrome.mjs` (a dependency-free Chrome DevTools driver that plays a page at phone and desktop sizes, catches console errors, foreign requests and downloads), `scripts/lib/serve.mjs` (serves `dist/` under the Pages path), `scripts/lib/build-lib.mjs` (canonical/OG/CSP head, content-hash version that ignores the build date), and `check_live.mjs` (live build version vs. main, with a redeploy hook).
