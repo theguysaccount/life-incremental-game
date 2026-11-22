@@ -8,7 +8,6 @@ name: Weekly self-test
 on:
   schedule:
     - cron: "43 15 * * 3"            # Wednesdays 15:43 UTC
-    - cron: "29,59 * 22-24 11 *"     # TEMPORARY, 22-24 Nov 2026 only: proves the schedule trigger; remove after the first scheduled run
   workflow_dispatch:
 
 permissions:

@@ -17,7 +17,7 @@ The game is static: there is no data to refresh and no server. The only recurrin
 
 Every job is safe to re-run and nothing depends on a run firing at an exact time: GitHub often starts this account's scheduled runs hours late, and the self-test only compares the live site with main.
 
-**Temporary line to remove:** `selftest.yml` has a second cron, `29,59 * 22-24 11 *`, that only runs on 22–24 November 2026 to prove the schedule trigger. Remove it once a scheduled run has passed (it would otherwise recur on those dates in 2027).
+**Schedule proven:** the first schedule-triggered self-test passed on 22 November 2026 ([run](https://github.com/theguysaccount/life-incremental-game/actions/runs/45034844136)): every live page, the live build version, the live run-through and the keep-alive. The temporary every-30-minutes schedule that proved it has been removed.
 
 ## What to watch
 
